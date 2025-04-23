@@ -8,6 +8,7 @@ metadata:
     alb.ingress.kubernetes.io/protocol: HTTP
     kubernetes.io/ingress.class: alb
 spec:
+  ingressClassName: alb
   rules:
   - host: tetris.vkcoder.xyz
     http:
